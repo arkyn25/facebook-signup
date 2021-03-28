@@ -27,9 +27,6 @@ function checarCampo() {
       break;
     }
   }
-  if (campo.innerText !== 'Campos inválidos') {
-    userLoged(elementos);
-  }
 }
 
 botao.addEventListener('click', checarCampo);
