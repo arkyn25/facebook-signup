@@ -3,8 +3,7 @@ const btnEntrar = document.getElementById('button-login');
 const personalizado = document.getElementById('Personalizado');
 const labelGender = document.getElementById('generos');
 const genderCustom = document.createElement('input');
-const botao = document.getElementById('facebook-register');
-const campo = document.getElementById('campos-invalidos');
+
 const createGenderCustom = () => labelGender.appendChild(genderCustom);
 
 function alerta() {
@@ -28,6 +27,7 @@ function checarCampo() {
       break;
     }
   }
+  if (campo.innerText !== 'Campos inválidos') {
+    userLoged(elementos);
+  }
 }
-
-botao.addEventListener('click', checarCampo);
