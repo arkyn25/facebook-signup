@@ -4,6 +4,7 @@ const personalizado = document.getElementById('Personalizado');
 const labelGender = document.getElementById('generos');
 const genderCustom = document.createElement('input');
 const botao = document.getElementById('facebook-register');
+const campo = document.getElementById('campos-invalidos');
 const createGenderCustom = () => labelGender.appendChild(genderCustom);
 
 function alerta() {
