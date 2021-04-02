@@ -3,6 +3,7 @@ const btnEntrar = document.getElementById('button-login');
 const personalizado = document.getElementById('Personalizado');
 const labelGender = document.getElementById('generos');
 const genderCustom = document.createElement('input');
+// const form = document.getElementById('');
 
 const createGenderCustom = () => {
   labelGender.appendChild(genderCustom);
