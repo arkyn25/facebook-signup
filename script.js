@@ -19,9 +19,9 @@ const campoInvalido = () => {
     }
   }
 };
-function alerta() {
+const alerta = () => {
   alert(`${document.getElementById('user-email-phone').value}`);
-}
+};
 
 btnCadastrar.addEventListener('click', campoInvalido);
 btnEntrar.addEventListener('click', alerta);
